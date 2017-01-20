@@ -9,7 +9,7 @@ This is a work in progress.
 
 # How To Use
 - Add your audio files to "Assets/Resources/Audio" folder;
-- Edit the Audio enum so that you have all your audio references there, matching the order of your audio files in the "Resources/Audio" folder;
+- Edit the AudioManagerSingleton.AudioClipName enum so that you have all your audio references there, matching the order of your audio files in the "Resources/Audio" folder;
 - Call AudioManagerSingleton.instance.Initialize() method;
 - Call AudioManagerSingleton.instance.PlaySound() method with the desired parameters;
 
